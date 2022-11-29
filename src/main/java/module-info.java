@@ -1,4 +1,4 @@
-module com.example.courseprojectfifteenthpuzzle {
+module com.example.demo5 {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
@@ -9,7 +9,8 @@ module com.example.courseprojectfifteenthpuzzle {
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
+    requires com.almasb.fxgl.all;
 
-    opens com.example.courseprojectfifteenthpuzzle to javafx.fxml;
-    exports com.example.courseprojectfifteenthpuzzle;
+    opens com.example.courseProjectFifteenthPuzzle to javafx.fxml;
+    exports com.example.courseProjectFifteenthPuzzle;
 }
