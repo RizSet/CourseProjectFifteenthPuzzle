@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.courseProjectFifteenthPuzzle.GameController">
+   <children>
+      <ImageView fitHeight="651.0" fitWidth="551.0">
+         <image>
+            <Image url="@../../../assets/iron_texture47.jpg" />
+         </image>
+      </ImageView>
+      <GridPane fx:id="gr" layoutX="14.0" layoutY="135.0" prefHeight="200" prefWidth="200" style="-fx-border-color: blak;">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="51.0" prefWidth="51.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="51.0" prefWidth="51.0" />
+           <ColumnConstraints hgrow="SOMETIMES" minWidth="51.0" prefWidth="51.0" />
+           <ColumnConstraints hgrow="SOMETIMES" minWidth="51.0" prefWidth="51.0" />
+           <ColumnConstraints hgrow="SOMETIMES" minWidth="51.0" prefWidth="51.0" />
+           <ColumnConstraints hgrow="SOMETIMES" minWidth="51.0" prefWidth="51.0" />
+           <ColumnConstraints hgrow="SOMETIMES" minWidth="51.0" prefWidth="51.0" />
+           <ColumnConstraints hgrow="SOMETIMES" minWidth="51.0" prefWidth="51.0" />
+           <ColumnConstraints hgrow="SOMETIMES" minWidth="51.0" prefWidth="51.0" />
+           <ColumnConstraints hgrow="SOMETIMES" minWidth="51.0" prefWidth="51.0" />
+           <ColumnConstraints hgrow="SOMETIMES" minWidth="51.0" prefWidth="51.0" />
+           <ColumnConstraints hgrow="SOMETIMES" minWidth="51.0" prefWidth="51.0" />
+           <ColumnConstraints hgrow="SOMETIMES" minWidth="51.0" prefWidth="51.0" />
+           <ColumnConstraints hgrow="SOMETIMES" minWidth="51.0" prefWidth="51.0" />    <ColumnConstraints hgrow="SOMETIMES" minWidth="51.0" prefWidth="51.0" />
+           <ColumnConstraints hgrow="SOMETIMES" minWidth="51.0" prefWidth="51.0" />    <ColumnConstraints hgrow="SOMETIMES" minWidth="51.0" prefWidth="51.0" />
+           <ColumnConstraints hgrow="SOMETIMES" minWidth="51.0" prefWidth="51.0" />
+           <ColumnConstraints hgrow="SOMETIMES" minWidth="51.0" prefWidth="51.0" />
+           <ColumnConstraints hgrow="SOMETIMES" minWidth="51.0" prefWidth="51.0" />
+           <ColumnConstraints hgrow="SOMETIMES" minWidth="51.0" prefWidth="51.0" />
+           <ColumnConstraints hgrow="SOMETIMES" minWidth="51.0" prefWidth="51.0" />
+
+
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="30.0" minHeight="52.0" prefHeight="52.0" vgrow="SOMETIMES" />
+           <RowConstraints maxHeight="30.0" minHeight="52.0" prefHeight="52.0" vgrow="SOMETIMES" />
+           <RowConstraints maxHeight="30.0" minHeight="52.0" prefHeight="52.0" vgrow="SOMETIMES" />
+           <RowConstraints maxHeight="30.0" minHeight="52.0" prefHeight="52.0" vgrow="SOMETIMES" /><RowConstraints maxHeight="30.0" minHeight="52.0" prefHeight="52.0" vgrow="SOMETIMES" />
+           <RowConstraints maxHeight="30.0" minHeight="52.0" prefHeight="52.0" vgrow="SOMETIMES" /><RowConstraints maxHeight="30.0" minHeight="52.0" prefHeight="52.0" vgrow="SOMETIMES" />
+           <RowConstraints maxHeight="30.0" minHeight="52.0" prefHeight="52.0" vgrow="SOMETIMES" /><RowConstraints maxHeight="30.0" minHeight="52.0" prefHeight="52.0" vgrow="SOMETIMES" />
+           <RowConstraints maxHeight="30.0" minHeight="52.0" prefHeight="52.0" vgrow="SOMETIMES" /><RowConstraints maxHeight="30.0" minHeight="52.0" prefHeight="52.0" vgrow="SOMETIMES" />
+           <RowConstraints maxHeight="30.0" minHeight="52.0" prefHeight="52.0" vgrow="SOMETIMES" /><RowConstraints maxHeight="30.0" minHeight="52.0" prefHeight="52.0" vgrow="SOMETIMES" />
+           <RowConstraints maxHeight="30.0" minHeight="52.0" prefHeight="52.0" vgrow="SOMETIMES" /><RowConstraints maxHeight="30.0" minHeight="52.0" prefHeight="52.0" vgrow="SOMETIMES" />
+           <RowConstraints maxHeight="30.0" minHeight="52.0" prefHeight="52.0" vgrow="SOMETIMES" /><RowConstraints maxHeight="30.0" minHeight="52.0" prefHeight="52.0" vgrow="SOMETIMES" />
+           <RowConstraints maxHeight="30.0" minHeight="52.0" prefHeight="52.0" vgrow="SOMETIMES" /><RowConstraints maxHeight="30.0" minHeight="52.0" prefHeight="52.0" vgrow="SOMETIMES" />
+           <RowConstraints maxHeight="30.0" minHeight="52.0" prefHeight="52.0" vgrow="SOMETIMES" /><RowConstraints maxHeight="30.0" minHeight="52.0" prefHeight="52.0" vgrow="SOMETIMES" />
+           <RowConstraints maxHeight="30.0" minHeight="52.0" prefHeight="52.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+      </GridPane>
+      <Button fx:id="property" layoutX="389.0" layoutY="54.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="83.0" style="-fx-background-color: black; -fx-background-radius: 10;" text="Property">
+         <font>
+            <Font name="Stencil" size="12.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5176211705817" centerY="0.48863646478363965" focusAngle="-94.57" focusDistance="0.01834869384765625" radius="0.871559580531689">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.006729475100942127">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.9973082099596231">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="restart" layoutX="389.0" layoutY="24.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="83.0" style="-fx-background-color: black; -fx-background-radius: 10;" text="Restart">
+         <font>
+            <Font name="Stencil" size="12.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5176211705817" centerY="0.48863646478363965" focusAngle="-94.57" focusDistance="0.01834869384765625" radius="0.871559580531689">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.006729475100942127">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.9973082099596231">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="exit" layoutX="389.0" layoutY="85.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="83.0" style="-fx-background-color: black; -fx-background-radius: 10;" text="Exit">
+         <font>
+            <Font name="Stencil" size="12.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5176211705817" centerY="0.48863646478363965" focusAngle="-94.57" focusDistance="0.01834869384765625" radius="0.871559580531689">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.006729475100942127">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.9973082099596231">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="pattern" layoutX="578.0" layoutY="-116.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: black; -fx-background-radius: 10; -fx-border-color: rgba(28,28,28,0);" text="99">
+         <font>
+            <Font name="Stencil" size="19.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5176211705817" centerY="0.48863646478363965" focusAngle="-94.57" focusDistance="0.01834869384765625" radius="0.871559580531689">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.006729475100942127">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.9973082099596231">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+      <TextFlow accessibleHelp="./" accessibleRole="BUTTON" accessibleText="hjkl" layoutX="337.0" layoutY="239.0" style="-fx-text-alignment: gbhnjk;" />
+      <Button fx:id="patternEmpty" layoutX="500.0" layoutY="-227.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: rgba(28,28,28,0); -fx-background-radius: 10;" text="99">
+         <font>
+            <Font name="Stencil" size="20.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5176211705817" centerY="0.48863646478363965" focusAngle="-94.57" focusDistance="0.01834869384765625" radius="0.871559580531689">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.006729475100942127">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.9973082099596231">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+      <Text fx:id="amountSteps" layoutX="172.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="58.2000572204588">
+         <font>
+            <Font name="Stencil" size="33.0" />
+         </font>
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <Label fx:id="lab" layoutX="91.0" layoutY="16.0" prefHeight="36.0" prefWidth="220.0" text="Amount steps">
+         <font>
+            <Font name="Stencil" size="30.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5176211705817" centerY="0.48863646478363965" focusAngle="-94.57" focusDistance="0.0688073394495412" radius="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.006729475100942127">
+                     <color>
+                        <Color red="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.9973082099596231">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+   </children>
+</AnchorPane>

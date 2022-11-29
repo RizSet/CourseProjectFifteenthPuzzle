@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.courseProjectFifteenthPuzzle.StartController">
+    <children>
+        <ImageView fitHeight="251.0" fitWidth="251.0">
+            <image>
+                <Image url="@../../../assets/iron_texture47.jpg" />
+            </image>
+        </ImageView>
+        <Button fx:id="property" layoutX="50.0" layoutY="132.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="150.0" style="-fx-background-color: black; -fx-background-radius: 10;" text="Property">
+            <font>
+                <Font name="Stencil" size="12.0" />
+            </font>
+            <textFill>
+                <RadialGradient centerX="0.5176211705817" centerY="0.48863646478363965" focusAngle="-94.57" focusDistance="0.01834869384765625" radius="0.871559580531689">
+                    <stops>
+                        <Stop>
+                            <color>
+                                <Color red="1.0" green="1.0" blue="1.0" />
+                            </color>
+                        </Stop>
+                        <Stop offset="0.006729475100942127">
+                            <color>
+                                <Color red="1.0" green="1.0" blue="1.0" />
+                            </color>
+                        </Stop>
+                        <Stop offset="0.9973082099596231">
+                            <color>
+                                <Color />
+                            </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                            <color>
+                                <Color />
+                            </color>
+                        </Stop>
+                    </stops>
+                </RadialGradient>
+            </textFill>
+        </Button>
+        <Label fx:id="lab" alignment="CENTER" contentDisplay="CENTER" layoutX="17.0" layoutY="63.0" prefHeight="30.0" prefWidth="215.0" text="Fifteenth puzzles" textAlignment="CENTER">
+            <font>
+                <Font name="Stencil" size="20.0" />
+            </font>
+            <textFill>
+                <RadialGradient centerX="0.4867841745788305" centerY="0.48863646478363965" focusAngle="-94.57" focusDistance="-0.11467881158951232" radius="1.0">
+                    <stops>
+                        <Stop>
+                            <color>
+                                <Color red="1.0" green="1.0" blue="1.0" />
+                            </color>
+                        </Stop>
+                        <Stop offset="0.006729475100942127">
+                            <color>
+                                <Color red="1.0" />
+                            </color>
+                        </Stop>
+                        <Stop offset="0.9973082099596231">
+                            <color>
+                                <Color />
+                            </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                            <color>
+                                <Color />
+                            </color>
+                        </Stop>
+                    </stops>
+                </RadialGradient>
+            </textFill>
+        </Label>
+        <Button fx:id="game" layoutX="50.0" layoutY="102.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="150.0" style="-fx-background-color: black; -fx-background-radius: 10;" text="Game">
+            <font>
+                <Font name="Stencil" size="12.0" />
+            </font>
+            <textFill>
+                <RadialGradient centerX="0.5176211705817" centerY="0.48863646478363965" focusAngle="-94.57" focusDistance="0.01834869384765625" radius="0.871559580531689">
+                    <stops>
+                        <Stop>
+                            <color>
+                                <Color red="1.0" green="1.0" blue="1.0" />
+                            </color>
+                        </Stop>
+                        <Stop offset="0.006729475100942127">
+                            <color>
+                                <Color red="1.0" green="1.0" blue="1.0" />
+                            </color>
+                        </Stop>
+                        <Stop offset="0.9973082099596231">
+                            <color>
+                                <Color />
+                            </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                            <color>
+                                <Color />
+                            </color>
+                        </Stop>
+                    </stops>
+                </RadialGradient>
+            </textFill>
+        </Button>
+        <Button fx:id="exit" layoutX="50.0" layoutY="163.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="150.0" style="-fx-background-color: black; -fx-background-radius: 10;" text="Exit">
+            <font>
+                <Font name="Stencil" size="12.0" />
+            </font>
+            <textFill>
+                <RadialGradient centerX="0.5176211705817" centerY="0.48863646478363965" focusAngle="-94.57" focusDistance="0.01834869384765625" radius="0.871559580531689">
+                    <stops>
+                        <Stop>
+                            <color>
+                                <Color red="1.0" green="1.0" blue="1.0" />
+                            </color>
+                        </Stop>
+                        <Stop offset="0.006729475100942127">
+                            <color>
+                                <Color red="1.0" green="1.0" blue="1.0" />
+                            </color>
+                        </Stop>
+                        <Stop offset="0.9973082099596231">
+                            <color>
+                                <Color />
+                            </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                            <color>
+                                <Color />
+                            </color>
+                        </Stop>
+                    </stops>
+                </RadialGradient>
+            </textFill>
+        </Button>
+        <Button fx:id="pattern" layoutX="321.0" layoutY="39.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: black; -fx-background-radius: 10; -fx-border-color: rgba(28,28,28,0);" text="99">
+            <font>
+                <Font name="Stencil" size="19.0" />
+            </font>
+            <textFill>
+                <RadialGradient centerX="0.5176211705817" centerY="0.48863646478363965" focusAngle="-94.57" focusDistance="0.01834869384765625" radius="0.871559580531689">
+                    <stops>
+                        <Stop>
+                            <color>
+                                <Color red="1.0" green="1.0" blue="1.0" />
+                            </color>
+                        </Stop>
+                        <Stop offset="0.006729475100942127">
+                            <color>
+                                <Color red="1.0" green="1.0" blue="1.0" />
+                            </color>
+                        </Stop>
+                        <Stop offset="0.9973082099596231">
+                            <color>
+                                <Color />
+                            </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                            <color>
+                                <Color />
+                            </color>
+                        </Stop>
+                    </stops>
+                </RadialGradient>
+            </textFill>
+        </Button>
+    </children>
+</AnchorPane>
